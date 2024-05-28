@@ -38,7 +38,19 @@ To install and run this project locally, follow these steps:
 
 2. **Install dependencies:**
     ```bash
-    npm install
+    npm install axios
+    ```
+    ```bash
+    npm install @heroicons/react
+    ```
+    ```bash
+    npm install @material-tailwind/react
+    ```
+    ```bash
+    npm install react-chartjs-2
+    ```
+    ```bash
+    npm install chart.js
     ```
 
 3. **Start the development server:**
@@ -50,14 +62,21 @@ To install and run this project locally, follow these steps:
     ```bash
     npm run build
     ```
-
-5. **Preview the production build:**
-    ```bash
-    npm run serve
-    ```
+  ```
 
 ## Usage
 Once the development server is running, you can access the dashboard at `http://localhost:3000`. The sidebar allows you to navigate through various sections such as General Stats, Teams, Activity Hours, Skills Development, In Progress Courses, Upcoming Courses, Top Employees, and Top Skills.
+
+## Screenshots
+
+![Screenshot 1](././src/assets/screenshots/ActivityHours.png)
+![Screenshot 2](././src/assets/screenshots/GeneralState.png)
+![Screenshot 3](././src/assets/screenshots/InProgressCourses.png)
+![Screenshot 4](././src/assets/screenshots/SkillsInDevelopment.png)
+![Screenshot 5](././src/assets/screenshots/Teams.png)
+![Screenshot 6](././src/assets/screenshots/TopEmployees.png)
+![Screenshot 7](././src/assets/screenshots/TopSkills.png)
+![Screenshot 8](././src/assets/screenshots/UpcomingCourses.png)
 
 ## Project Structure
 ```plaintext
@@ -82,16 +101,6 @@ dashboard-project/
 ├── package.json
 ├── README.md
 └── tailwind.config.js
-## Screenshots
-
-![Screenshot 1](././src/assets/screenshots/ActivityHours.png)
-![Screenshot 2](././src/assets/screenshots/GeneralState.png)
-![Screenshot 3](././src/assets/screenshots/InProgressCourses.png)
-![Screenshot 4](././src/assets/screenshots/SkillsInDevelopment.png)
-![Screenshot 5](././src/assets/screenshots/Teams.png)
-![Screenshot 6](././src/assets/screenshots/TopEmployees.png)
-![Screenshot 7](././src/assets/screenshots/TopSkills.png)
-![Screenshot 8](././src/assets/screenshots/UpcomingCourses.png)
 
 Gainings
 Working on this project provided valuable experience in:
