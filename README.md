@@ -2,6 +2,13 @@
 
 This project is a responsive and interactive dashboard built with React.js, Vite, and Tailwind CSS. It features various sections displaying general stats, team information, activity hours, skills development, and top employees/skills. The project also incorporates beautiful icons and charts for better data visualization.
 
+## Project URL
+[https://main.dyop0j2q456im.amplifyapp.com/](https://main.dyop0j2q456im.amplifyapp.com/)
+
+## Hosting
+
+Via Amazon Web Services Amplify
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
