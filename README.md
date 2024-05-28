@@ -84,14 +84,14 @@ dashboard-project/
 └── tailwind.config.js
 ## Screenshots
 
-![Screenshot 1](./src/assets/screenshots/ActivityHours.png)
-![Screenshot 2](./src/assets/screenshots/GeneralState.png)
-![Screenshot 3](./src/assets/screenshots/InProgressCourses.png)
-![Screenshot 4](./src/assets/screenshots/SkillsInDevelopment.png)
-![Screenshot 5](./src/assets/screenshots/Teams.png)
-![Screenshot 6](./src/assets/screenshots/TopEmployees.png)
-![Screenshot 7](./src/assets/screenshots/TopSkills.png)
-![Screenshot 8](./src/assets/screenshots/UpcomingCourses.png)
+![Screenshot 1](././src/assets/screenshots/ActivityHours.png)
+![Screenshot 2](././src/assets/screenshots/GeneralState.png)
+![Screenshot 3](././src/assets/screenshots/InProgressCourses.png)
+![Screenshot 4](././src/assets/screenshots/SkillsInDevelopment.png)
+![Screenshot 5](././src/assets/screenshots/Teams.png)
+![Screenshot 6](././src/assets/screenshots/TopEmployees.png)
+![Screenshot 7](././src/assets/screenshots/TopSkills.png)
+![Screenshot 8](././src/assets/screenshots/UpcomingCourses.png)
 
 Gainings
 Working on this project provided valuable experience in:
