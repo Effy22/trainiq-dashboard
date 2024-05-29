@@ -56,6 +56,14 @@ const Sidebar = ({ setActiveSection }) => {
             <StarIcon className="w-6 h-6 mr-2" />
             <button onClick={() => setActiveSection('top-skills')} className="text-lg  w-full button-opaque-bg text-left py-2 px-4 rounded-lg">Top Skills</button>
           </li>
+          <li className="flex items-center">
+            <UsersIcon className="w-6 h-6 mr-2" />
+            <button onClick={() => alert('Create New Team clicked')} className="text-lg w-full text-left py-2 px-4 rounded-lg">Create New Team</button>
+          </li>
+          <li className="flex items-center">
+            <UsersIcon className="w-6 h-6 mr-2" />
+            <button onClick={() => alert('Add New Employee to a Team clicked')} className="text-lg w-full text-left py-2 px-4 rounded-lg">Add New Employee to a Team</button>
+          </li>
         </ul>
       </div>
       {isSidebarOpen && (

@@ -53,7 +53,7 @@ const TopEmployees = ({ topEmployees }) => {
   }, [topEmployees]);
 
   return (
-    <div className="activity-hours bg-white rounded shadow w-full h-96 p-4 md:max-w-2xl">
+    <div className="activity-hours bg-white rounded shadow w-full h-96 p-8 md:max-w-2xl">
       <h3 className="text-2xl mb-4">Top Employees</h3>
       <div className="h-full">
         <canvas ref={chartRef} className="w-full h-full"></canvas>

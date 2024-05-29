@@ -6,7 +6,7 @@ const SkillsDevelopment = ({ skills }) => {
   }
 
   return (
-    <div className="skills-development mb-4 container mx-auto h-dvs flex flex-wrap">
+    <div className="skills-development mb-4 p-8 container mx-auto h-dvs flex flex-wrap">
       {skills.map(skill => (
         <div key={skill.skill} className="w-full sm:w-1/2 md:w-1/3 p-4">
           <div className="skill p-4 rounded shadow mb-4 bg-blue-500 max-w-xs">

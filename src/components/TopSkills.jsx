@@ -53,7 +53,7 @@ const TopSkills = ({ topSkills }) => {
   }, [topSkills]);
 
   return (
-    <div className="bg-white rounded shadow w-full h-full p-4 text-center sm:text-left">
+    <div className="bg-white rounded shadow w-full h-full p-8 text-center sm:text-left">
       <h3 className="text-2xl mb-4">Top Skills</h3>
       <div className="h-full chart-container">
         <canvas ref={chartRef} className="w-full h-full"></canvas>

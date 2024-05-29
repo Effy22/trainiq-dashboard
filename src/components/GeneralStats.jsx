@@ -5,7 +5,7 @@ import React from 'react';
 const GeneralStats = ({ totalEmployees, totalCompletedCourses, averageEmployeeScore }) => {
   return (
     <>
-    <h3 className="text-2xl mb-4 p-4">General Stats</h3>
+    <h3 className="text-2xl mb-4 p-8">General Stats</h3>
     <div className='flex justify-center'>
       <img src="https://trainiq.ai/assets/img/front-pages/landing-page/faq-boy-with-logos.webp" style={{height: ' 250px'}} alt="" />
     </div>

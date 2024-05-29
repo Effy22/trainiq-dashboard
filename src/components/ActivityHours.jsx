@@ -53,7 +53,7 @@ const ActivityHours = ({ activityHours }) => {
           });
         }, [activityHours]);
   return (
-          <div className="activity-hours bg-white rounded shadow w-full h-96 p-4">
+          <div className="activity-hours bg-white rounded shadow w-full h-96 p-8">
           <h3 className="text-2xl mb-4">Activity Hours</h3>
           <div className="h-full">
             <canvas ref={chartRef} className="w-full h-full"></canvas>

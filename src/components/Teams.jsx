@@ -16,7 +16,7 @@ const Teams = ({ teams }) => {
   return (
     <div className="flex-1 teams mb-4 w-4/5">
       {teams.map(team => (
-        <div key={team.title} className="team bg-white p-4 rounded shadow mb-4">
+        <div key={team.title} className="team bg-white p-8 rounded shadow mb-4">
           <h3 className="text-2xl">{team.title}</h3>
           <p className="text-gray-500">{capitalizeFirstLetter(team.description)}</p>
           <h4 className="text-xl mt-4">Employees</h4>
