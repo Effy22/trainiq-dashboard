@@ -91,10 +91,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.sidebar-button{
+  background-color: none;
+}
 .button-opaque-bg {
   background-color: rgba(0, 0, 0, 0); 
   border: none; 
-  padding: 0; 
+  padding: 2; 
   font: inherit; 
   transition: color 0.3s; 
 }
@@ -106,7 +109,7 @@ button:focus-visible {
 }
 @media (max-width: 768px) {
   .sidebar {
-    display: none; /* Mobil cihazlarda sidebar'ı gizle */
+    display: none; 
   }
   .flex-col {
     flex-direction: column; 

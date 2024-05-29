@@ -13,12 +13,9 @@ const Dashboard = ({ data }) => {
   const [activeSection, setActiveSection] = useState('general-stats');
 
   return (
-    <div className='flex flex-col md:flex-row h-screen'> 
-      <div className='flex-none w-full md:w-64'> 
-         <Sidebar setActiveSection={setActiveSection} />
-      </div>
-      
-      <div className="flex-grow p-7 overflow-y-auto"> 
+    <div className="flex h-screen overflow-hidden">
+      <Sidebar setActiveSection={setActiveSection} />
+      <div className="flex-1 p-7 overflow-y-auto">
         {activeSection === 'general-stats' && (
           <section id="general-stats">
             <GeneralStats 
